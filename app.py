@@ -8,6 +8,8 @@ def encrypt_pass(password):
     print(encoded_bytes)
 
 user_pass = input("Enter your password: ")
+print("This is your encrypted password ")
 encrypt_pass(user_pass)
-print(f"This is your encrypted password ")
+print("Thanks for using Ossintys Tool")
+
 
